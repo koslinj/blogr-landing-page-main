@@ -12,7 +12,7 @@ body{
     overflow-x: hidden;
 }
 .section1{
-    height: 50vh;
+    height: 440px;
     background-image: url(./images/bg-pattern-intro-mobile.svg), linear-gradient( hsl(13, 100%, 72%), hsl(353, 100%, 62%));
     padding: 20px;
     background-size: 320%;
@@ -178,7 +178,7 @@ nav > button:nth-of-type(2){
 }
 .section3{
     background: linear-gradient(hsl(237, 17%, 21%), hsl(237, 23%, 32%));
-    height: 60vh;
+    height: 500px;
     margin-top: 220px;
     border-radius: 0 100px 0 100px;
     display: flex;
@@ -199,7 +199,7 @@ nav > button:nth-of-type(2){
     display: flex;
     justify-content: center;
     position: absolute;
-    height: 40vh;
+    height: 340px;
 }
 .phones img{
     transform: translateY(-50%) scale(1.1);
@@ -249,17 +249,17 @@ nav > button:nth-of-type(2){
 
 @media screen and (max-width: 674px){
     .section3{
-        height: 70vh;
+        height: 540px;
     }
 }
 @media screen and (max-width: 544px){
     .section3{
-        height: 80vh;
+        height: 600px;
     }
 }
 @media screen and (max-width: 310px){
     .section3{
-        height: 100vh;
+        height: 800px;
     }
 }
 
@@ -359,7 +359,7 @@ nav > button:nth-of-type(2){
     }
     .section3{
         background: linear-gradient(hsl(237, 17%, 21%), hsl(237, 23%, 32%));
-        height: 60vh;
+        height: 500px;
         margin-top: 220px;
         border-radius: 0 100px 0 100px;
         display: flex;
@@ -404,7 +404,7 @@ nav > button:nth-of-type(2){
     .section4 .photo{
         width: 40%;
         position: relative;
-        height: 60vh;
+        height: 500px;
     }
     .section4 .photo img{
         position: absolute;
